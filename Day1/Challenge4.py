@@ -1,0 +1,7 @@
+c = float(input("Enter temperature in Celsius: "))
+f = c * 9 / 5 + 32
+print("Temperature in Fahrenheit:", f)
+
+f2 = float(input("Enter temperature in Fahrenheit: "))
+c2 = (f2 - 32) * 5 / 9
+print("Temperature in Celsius:", round(c2, 2))
