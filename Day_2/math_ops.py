@@ -1,0 +1,7 @@
+def mean(num):
+    return sum(num) / len(num)
+
+def find_median(num):
+    n = len(num)
+    mid = n // 2
+    return num[mid]
