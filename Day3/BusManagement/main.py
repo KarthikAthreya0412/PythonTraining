@@ -11,9 +11,9 @@ bus101 = Bus("101", 40)
 bus101.assign_driver(driver1)
 bus101.assign_route(route1)
 
-p1 = Passenger("Alice", "T001", "Chennai Central")
-p2 = Passenger("Bob", "T002", "Broadway")
-p3 = Passenger("Charlie", "T003", "Anna Nagar")
+p1 = Passenger("Amar", "T001", "Chennai Central")
+p2 = Passenger("Ram", "T002", "Broadway")
+p3 = Passenger("Sankar", "T003", "Anna Nagar")
 
 bus101.add_passenger(p1)
 bus101.add_passenger(p2)
