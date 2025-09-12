@@ -1,0 +1,26 @@
+create database course_management_system;
+
+use course_management_system;
+
+create table students(
+student_id int primary key auto_increment,
+name varchar(255),
+email varchar(255) unique
+);
+
+create table courses(
+course_id int primary key auto_increment,
+course_name varchar(255),
+credits int
+);
+
+
+create table enrollments(
+enrollment_id int primary key auto_increment,
+student_id int,
+course_id int,
+enrollment_date date,
+foreign key(student_id) references students(student_id),
+foreign key(course_id) references courses(course_id)
+);
+
